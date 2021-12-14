@@ -1,11 +1,15 @@
-#container{
-    width: 1920px;
+*{
     margin: 0;
+}
+
+#container{
+    margin: 0;
+    width: 100%;
 }
 #navbar{
     width: 100%;
-    height: 150px;
-    background-color: #3083ff;
+    height: 100px;
+    background-color: #6E5DD8;
 }
 #imageslider{
     width: 100%;
