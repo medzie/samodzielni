@@ -52,6 +52,7 @@
                     </div>
                 </div>
             </div>
+			
 			<?php
     $baza = new mysqli('localhost','root','','samodzielni');
     $zapytanie = "select * from zbiorki";
@@ -66,6 +67,7 @@
 
     $baza->close();
     ?>
+	
         </div>
         <script type="text/javascript">
             var counter = 1;
