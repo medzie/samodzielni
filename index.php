@@ -12,18 +12,18 @@
     <body>
         <div id="container">
         <div id="navbar">
+            <div id="navlewo">
                 <img src="logo.png" width="10%" class="zdjecianav" id="logo">
                 <a href="listazbiorek.html" class="zbiorkinav">Lista Zbiórek</a>
                 <a href="zalozzbiorke.html" class="zbiorkinav">Załóż Zbiórkę</a>
-<<<<<<< Updated upstream:index.php
                 <a href="zalozzbiorke.html" class="zbiorkinav2">Szukaj Zbiórki</a>
 				<input  type="text" id="ikona" name="search">
+                </div>
+            <div id="navprawo">
                 <img src="account.png" height="30%" id="obrazek_konta">
-                <a href="zalozzbiorke.html" class="zbiorkinav">Moje konto</a>
-=======
-                <a href="zalozzbiorke.html" class="zbiorkinav">Szukaj Zbiórki</a>
-                <input type="text" id="ikona" name="search">
->>>>>>> Stashed changes:index.html
+                <a href="zalozzbiorke.html" class="zbiorkinav3">Moje konto</a>
+                </div>
+                <div style="clear:both"></div>
         </div>
         <div id="imageslider">
             <div class="slider">
@@ -60,8 +60,8 @@
                 </div>
             </div>
         </div>
-
-        <div id="zbiorka">
+    <div id="mainpage">
+    <div class="zbiorka">
             <img src="tomek.jpg">
         <?php
             $baza = new mysqli('localhost','root','','samodzielni');
@@ -74,6 +74,52 @@
             $baza->close();
         ?>
         </div>
+        <div class="zbiorka">
+            <img src="tomek.jpg">
+        <?php
+            $baza = new mysqli('localhost','root','','samodzielni');
+            $zapytanie = "select * from zbiorki";
+            $wynik = mysqli_query($baza,$zapytanie);
+            while( $kod = $wynik->fetch_assoc() )
+            {
+            echo '<h2>'.$kod['cel'].'</h2><br>'.$kod['opis'].'<br><br>'.$kod['zebrano'].' z '.$kod['potrzeba'].' zł<br><br>'.$kod['procent'].'%<br><br>Brakuje: '.$kod['brakuje'].' zł';
+            }
+            $baza->close();
+        ?>
+        </div>
+        <div class="zbiorka">
+            <img src="tomek.jpg">
+        <?php
+            $baza = new mysqli('localhost','root','','samodzielni');
+            $zapytanie = "select * from zbiorki";
+            $wynik = mysqli_query($baza,$zapytanie);
+            while( $kod = $wynik->fetch_assoc() )
+            {
+            echo '<h2>'.$kod['cel'].'</h2><br>'.$kod['opis'].'<br><br>'.$kod['zebrano'].' z '.$kod['potrzeba'].' zł<br><br>'.$kod['procent'].'%<br><br>Brakuje: '.$kod['brakuje'].' zł';
+            }
+            $baza->close();
+        ?>
+        </div>
+
+        <div class="zbiorka">
+            <img src="tomek.jpg">
+        <?php
+            $baza = new mysqli('localhost','root','','samodzielni');
+            $zapytanie = "select * from zbiorki";
+            $wynik = mysqli_query($baza,$zapytanie);
+            while( $kod = $wynik->fetch_assoc() )
+            {
+            echo '<h2>'.$kod['cel'].'</h2><br>'.$kod['opis'].'<br><br>'.$kod['zebrano'].' z '.$kod['potrzeba'].' zł<br><br>'.$kod['procent'].'%<br><br>Brakuje: '.$kod['brakuje'].' zł';
+            }
+            $baza->close();
+        ?>
+        </div>
+    </div>
+    <div id="stopa">
+        <img src="twitter.png" id="obrazek1">
+        <img src="fb.png" id="obrazek2">
+        <img src="ig.png" id="obrazek3">
+    </div>
 
 
         <script type="text/javascript">

@@ -1,17 +1,26 @@
 *{
     margin: 0;
 }
+body{
+    background-color: #EEECF7;
+}
 
 #container{
     margin: 0;
     width: 100%;
 }
-#navbar{
-    width: 100%;
+#navlewo{
+    width: 70%;
     height: 100px;
     background-color: #6E5DD8;
     display: flex;
-    /*justify-content: space-between;*/
+    float: left;
+}
+#navprawo{
+    width: 30%;
+    height: 100px;
+    background-color: #6e5dd8;
+    float: left;
 }
 .zdjecianav{
     padding: 5px;
@@ -22,26 +31,6 @@
 a{
     text-decoration: none;
 }
-#ikona{
-    background-image: url("lupa.png");
-    position:left;
-    padding-left:3px;
-    background-size:25px;
-    background-repeat:no-repeat;
-}
-input[type=text]:focus {
-    width: 464px;
-  }
-  input[type=text] {
-    width: 25px;
-    height: 25px;
-    margin:10px;
-    border: none;
-    border-bottom: 2px solid #330000;
-    border-width: 4px;
-    -webkit-transition: width .35s ease-in-out;
-    transition: width .35s ease-in-out;
-  }
 #logo{
     margin-left: 100px;
 }
@@ -54,7 +43,6 @@ input[type=text]:focus {
     justify-content: center;
     padding: 25px;
 }
-
 .zbiorkinav2{
     font-family: 'Sansita';
     color: white;
@@ -65,9 +53,12 @@ input[type=text]:focus {
     padding: 25px;
 	padding-right: 0px;
 }
-
+.zbiorkinav3{
+    font-family: 'Sansita';
+    color: white;
+    font-size: 22px;
+}
 #imageslider{
-    background-color: grey;
     display: flex;
     justify-content: center;
 }
@@ -201,15 +192,46 @@ input[type=text]:focus {
     outline: none;
 }
 
-#zbiorka{
+.zbiorka{
     text-align: center;
-    border: 5px solid black;
+    border: 1px solid black;
     width: 286px;
     height: 500px;
     border-radius: 5px;
     font-family: 'Sansita';
+    float: left;
+    margin-top: 15px;
+    margin-inline: 35px;
+    background-color: #fff;
 }
 
 #obrazek_konta{
 	margin-top: 35px;
+    margin-left: 275px;
+}
+#mainpage{
+    width: 100%;
+    background-color: #EEECF7;
+    display: flex;
+    justify-content: center;
+}
+#stopa{
+    margin-top: 15px;
+    width: 100%;
+    background-color:#6E5DD8;
+}
+#obrazek1{
+    margin-top: 5px;
+    margin-inline: 10px;
+    width: 45px;
+}
+#obrazek2{
+    margin-top: 5px;
+    margin-inline: 10px;
+    width: 45px;
+}
+#obrazek3{
+    margin-top: 5px;
+    margin-inline: 10px;
+    width: 45px;
 }
