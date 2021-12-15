@@ -15,10 +15,15 @@
                 <img src="logo.png" width="10%" class="zdjecianav" id="logo">
                 <a href="listazbiorek.html" class="zbiorkinav">Lista Zbiórek</a>
                 <a href="zalozzbiorke.html" class="zbiorkinav">Załóż Zbiórkę</a>
+<<<<<<< Updated upstream:index.php
                 <a href="zalozzbiorke.html" class="zbiorkinav2">Szukaj Zbiórki</a>
 				<input  type="text" id="ikona" name="search">
                 <img src="account.png" height="30%" id="obrazek_konta">
                 <a href="zalozzbiorke.html" class="zbiorkinav">Moje konto</a>
+=======
+                <a href="zalozzbiorke.html" class="zbiorkinav">Szukaj Zbiórki</a>
+                <input type="text" id="ikona" name="search">
+>>>>>>> Stashed changes:index.html
         </div>
         <div id="imageslider">
             <div class="slider">

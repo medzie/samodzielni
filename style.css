@@ -22,6 +22,26 @@
 a{
     text-decoration: none;
 }
+#ikona{
+    background-image: url("lupa.png");
+    position:left;
+    padding-left:3px;
+    background-size:25px;
+    background-repeat:no-repeat;
+}
+input[type=text]:focus {
+    width: 464px;
+  }
+  input[type=text] {
+    width: 25px;
+    height: 25px;
+    margin:10px;
+    border: none;
+    border-bottom: 2px solid #330000;
+    border-width: 4px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+  }
 #logo{
     margin-left: 100px;
 }
