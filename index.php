@@ -33,16 +33,16 @@
                     <input type="radio" name="radio-btn" id="radio3">
                     <input type="radio" name="radio-btn" id="radio4">
                     <div class="slide first">
-                        <a href="zbiorka1.html"><img src="samodzielni.jpg" alt="zdjecie1"></a>
+                        <a href="zbiorka1.html"><img src="tomek1.png" alt="zdjecie1"></a>
                     </div>
                     <div class="slide ">
-                        <a href="zbiorka2.html"><img src="samodzielni.jpg" alt="zdjecie2"></a>
+                        <a href="zbiorka2.html"><img src="tomek2.png" alt="zdjecie2"></a>
                     </div>
                     <div class="slide ">
-                        <a href="zbiorka3.html"><img src="samodzielni.jpg" alt="zdjecie3"></a>
+                        <a href="zbiorka3.html"><img src="tomek3.png" alt="zdjecie3"></a>
                     </div>
                     <div class="slide ">
-                        <a href="zbiorka4.html"><img src="samodzielni.jpg" alt="zdjecie4"></a>                    
+                        <a href="zbiorka4.html"><img src="tomek4.png" alt="zdjecie4"></a>                    
                     </div>
                     <div class="navigation-auto">
                         <div class="auto-btn1"></div>
@@ -75,7 +75,7 @@
         ?>
         </div>
         <div class="zbiorka">
-            <img src="tomek.jpg">
+            <img src="sadboy.jpg" width="286px" height="257px">
         <?php
             $baza = new mysqli('localhost','root','','samodzielni');
             $zapytanie = "select * from zbiorki";
@@ -88,7 +88,7 @@
         ?>
         </div>
         <div class="zbiorka">
-            <img src="tomek.jpg">
+            <img src="malysz.png" width="286px" height="257px">
         <?php
             $baza = new mysqli('localhost','root','','samodzielni');
             $zapytanie = "select * from zbiorki";
@@ -102,7 +102,7 @@
         </div>
 
         <div class="zbiorka">
-            <img src="tomek.jpg">
+            <img src="marcin.png" width="286px" height="257px">
         <?php
             $baza = new mysqli('localhost','root','','samodzielni');
             $zapytanie = "select * from zbiorki";
