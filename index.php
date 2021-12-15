@@ -52,23 +52,23 @@
                     </div>
                 </div>
             </div>
-			
-			<?php
-    $baza = new mysqli('localhost','root','','samodzielni');
-    $zapytanie = "select * from zbiorki";
-
-    $wynik = mysqli_query($baza,$zapytanie);
-
-    while( $kod = $wynik->fetch_assoc() )
-    {
-    echo $kod['cel'].' - '.$kod['opis'].'<br>';
-    }
-
-
-    $baza->close();
-    ?>
-	
         </div>
+
+        <div id="zbiorka">
+            <img src="tomek.jpg">
+        <?php
+            $baza = new mysqli('localhost','root','','samodzielni');
+            $zapytanie = "select * from zbiorki";
+            $wynik = mysqli_query($baza,$zapytanie);
+            while( $kod = $wynik->fetch_assoc() )
+            {
+            echo '<h2>'.$kod['cel'].'</h2><br>'.$kod['opis'].'<br><br>'.$kod['zebrano'].' z '.$kod['potrzeba'].' zł<br><br>'.$kod['procent'].'%<br><br>Brakuje: '.$kod['brakuje'].' zł';
+            }
+            $baza->close();
+        ?>
+        </div>
+
+
         <script type="text/javascript">
             var counter = 1;
             setInterval(function(){
