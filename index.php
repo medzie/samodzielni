@@ -65,7 +65,7 @@
             <img src="tomek.jpg">
         <?php
             $baza = new mysqli('localhost','root','','samodzielni');
-            $zapytanie = "select * from zbiorki";
+            $zapytanie = "select * from zbiorki where id=1 limit 1";
             $wynik = mysqli_query($baza,$zapytanie);
             while( $kod = $wynik->fetch_assoc() )
             {
@@ -78,7 +78,7 @@
             <img src="sadboy.jpg" width="286px" height="257px">
         <?php
             $baza = new mysqli('localhost','root','','samodzielni');
-            $zapytanie = "select * from zbiorki";
+            $zapytanie = "select * from zbiorki where id=2 limit 1";
             $wynik = mysqli_query($baza,$zapytanie);
             while( $kod = $wynik->fetch_assoc() )
             {
@@ -91,7 +91,7 @@
             <img src="malysz.png" width="286px" height="257px">
         <?php
             $baza = new mysqli('localhost','root','','samodzielni');
-            $zapytanie = "select * from zbiorki";
+            $zapytanie = "select * from zbiorki where id=3 limit 1";
             $wynik = mysqli_query($baza,$zapytanie);
             while( $kod = $wynik->fetch_assoc() )
             {
@@ -105,7 +105,7 @@
             <img src="marcin.png" width="286px" height="257px">
         <?php
             $baza = new mysqli('localhost','root','','samodzielni');
-            $zapytanie = "select * from zbiorki";
+            $zapytanie = "select * from zbiorki where id=4 limit 1";
             $wynik = mysqli_query($baza,$zapytanie);
             while( $kod = $wynik->fetch_assoc() )
             {
