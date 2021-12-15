@@ -14,9 +14,9 @@
         <div id="navbar">
             <div id="navlewo">
                 <img src="logo.png" width="10%" class="zdjecianav" id="logo">
-                <a href="listazbiorek.html" class="zbiorkinav">Lista Zbiórek</a>
-                <a href="zalozzbiorke.html" class="zbiorkinav">Załóż Zbiórkę</a>
-                <a href="zalozzbiorke.html" class="zbiorkinav2">Szukaj Zbiórki</a>
+                <a href="lista.html" class="zbiorkinav">Lista Zbiórek</a>
+                <a href="zaloz.html" class="zbiorkinav">Załóż Zbiórkę</a>
+                <a href="" class="zbiorkinav2">Szukaj Zbiórki</a>
 				<input  type="text" id="ikona" name="search">
                 </div>
             <div id="navprawo">
@@ -116,9 +116,7 @@
         </div>
     </div>
     <div id="stopa">
-        <img src="twitter.png" id="obrazek1">
-        <img src="fb.png" id="obrazek2">
-        <img src="ig.png" id="obrazek3">
+        <img src="footer.jpg" width="100%">
     </div>
 
 
