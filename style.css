@@ -166,7 +166,6 @@ input[type=text] {
 input[type=text]:focus {
   width: 300px;
   padding-left: 18px;
-  
    outline: none;
 }
 
@@ -178,10 +177,8 @@ input[type=text]:focus {
     background-repeat:no-repeat;
 	align-items: center;
     justify-content: center;
-	margin-top: 42px;
-	
+	margin-top: 44px;
     outline: none;
-	
 }
 
 #zbiorka{
@@ -191,4 +188,8 @@ input[type=text]:focus {
     height: 500px;
     border-radius: 5px;
     font-family: 'Sansita';
+}
+
+#obrazek_konta{
+	margin-top: 35px;
 }

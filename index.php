@@ -17,6 +17,8 @@
                 <a href="zalozzbiorke.html" class="zbiorkinav">Załóż Zbiórkę</a>
                 <a href="zalozzbiorke.html" class="zbiorkinav2">Szukaj Zbiórki</a>
 				<input  type="text" id="ikona" name="search">
+                <img src="account.png" height="30%" id="obrazek_konta">
+                <a href="zalozzbiorke.html" class="zbiorkinav">Moje konto</a>
         </div>
         <div id="imageslider">
             <div class="slider">
